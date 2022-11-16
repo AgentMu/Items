@@ -1,0 +1,85 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="o4k*~|WeN-p)AD+!@#_C" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="1*|6NmwIVSe39ZS1~SA$"><field name="LEDS">`
+        . . # # . 
+        . # # # . 
+        # # # # # 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="uTd53s])1!Ve7o/8H`GI"><field name="LEDS">`
+        # . # . . 
+        # # # # . 
+        # # # # # 
+        . # . # . 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_pin_event" id="xGQn#[[=D2)Dr*~MwTpW" x="-220" y="273"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_show_leds" id="?w%GIH#UB1I2uYqUb.e%"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # # # . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="5[wWS,.5d0G%9A_lLL{K"><value name="pause"><shadow type="timePicker" id="(tc|7KT@^FoP=_5^YwK}"><field name="ms">20000</field></shadow></value><next><block type="device_print_message" id="7VR:.y^%vYPg1{:Q.1aX"><value name="text"><shadow type="text" id="ZCSUJ)6{tbr%Hza$hX=)"><field name="TEXT">The answer is "A Clock"</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id=")5$Q73GLXt:~36?!QaX@" x="522" y="384"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="EE}#0%V@IQ(GODUXwnl?"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="E_M)O!4~i*76VD37I3QL"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # # . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id=".MI28O70zR^n_-~oaUq%"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # # # . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="@7LVr6nINR4R,u3{kr35"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . # # 
+        # # # . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="wF$plRh({Xu`VA61==a1"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # . . # # 
+        # # # . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="KBLngeP_dj$[cwNuFKky"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # . # # # 
+        # # # . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="%SEu7VQfr235o`0lK$2;"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # . . # # 
+        # # # . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="j=pb3TG-go3-(kRJUT_+"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # . # # # 
+        # # # . # 
+        # # # # #
+        `</field><next><block type="device_pause" id="qRrV|Fk(gQ9,w@dl=q3H"><value name="pause"><shadow type="timePicker" id="XW?`:19XelZ4$+.{it#o"><field name="ms">20000</field></shadow></value><next><block type="device_print_message" id="Jeed#sKUekN~%{:X_Hqu"><value name="text"><shadow type="text" id="EEt7{KA9p?[eFJiyEzHh"><field name="TEXT">The answer is "A Treasure Map</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="*=92IrapafwXBYaTFHEG" x="-11" y="536"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="}URcc72|,Qj}4kv@d{/U"><field name="LEDS">`
+        . # # # . 
+        # # # . # 
+        # # # . # 
+        # # . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="=VX@!q2cHr[$Fn*w6L5p"><value name="pause"><shadow type="timePicker" id="uWb%Ly^Yn7qA9trLwb[:"><field name="ms">20000</field></shadow></value><next><block type="device_print_message" id="4O4]jM+)XqDi,+sA@o8n"><value name="text"><shadow type="text" id="|W6JX=[h1b}?/OZ*a`z9"><field name="TEXT">The answer is "A Cookie</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="0/;Y-G]:7u[y~4W-2DB3" x="228" y="578"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="pO-/LNJ60;EG5Q8Tgt~="><field name="LEDS">`
+        # # # # # 
+        # # . . . 
+        # # # # # 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="device_pause" id=":*H;Y#;:!%eb?o87[p0]"><value name="pause"><shadow type="timePicker" id="RUK)rmw[~I_$d1Tv%SgV"><field name="ms">20000</field></shadow></value><next><block type="device_print_message" id="jMc7MzkvQZG,P}##h1-V"><value name="text"><shadow type="text" id="Yr_0o$mKMK4pIu]lH0zZ"><field name="TEXT">The answer is "The American Flag</field></shadow></value></block></next></block></next></block></statement></block><block type="device_pin_event" id="msr6A^9fAI#A@8zHb4,#" x="781" y="2156"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="device_show_leds" id="W^i7Z!_}TxSZDI{11V$]"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement></block></xml>
